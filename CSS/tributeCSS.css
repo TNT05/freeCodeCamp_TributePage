@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: gray;
+}
+#main{
+    width: 90vw;
+    height: 100rem;
+    background-color: mediumpurple;
+
+}
+#title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+#img-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#image{
+    width: 20rem;
+    height: 20rem;
+}
