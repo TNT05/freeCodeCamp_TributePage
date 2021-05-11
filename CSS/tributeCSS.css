@@ -23,6 +23,15 @@ body{
 }
 
 #image{
-    width: 20rem;
-    height: 20rem;
+    max-width: 50%;
+    border-radius: 20%;
+}
+
+#tribute-info{
+    width: 100%;
+    background-color: black;
+    color: mediumpurple;
+    display: grid;
+    grid-template-rows: repeat(4,30px);
+    justify-items: start;
 }
